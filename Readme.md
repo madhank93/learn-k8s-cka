@@ -19,6 +19,22 @@ Please refer this [repo](https://github.com/madhank93/learn-k8s-ckad) to go thro
    </details>
 
 1. <details>
+   <summary> What are the prerequisites that need to be installed and how to be installed ?</summary>
+
+   <p>
+
+   - For prerequisites refer [here](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#before-you-begin)
+   - Installing container runtime (CRI) refer [here](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#installing-runtime)
+   - Installing kubeadm, kubelet and kubectl refer [here](https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#installing-kubeadm-kubelet-and-kubectl)
+
+      - **kubelet** - It is a process runs on all the instances (master/worker node) and it takes of running pods and containers ...etc
+      - **kubeadm** - It is a command line tool, initializes the k8s cluster
+      - **kubectl** - It is a command line tool to interact with the cluster.
+
+   </p>
+   </details>
+
+1. <details>
    <summary> What are Static pods ?</summary>
 
    <p>
@@ -29,3 +45,8 @@ Please refer this [repo](https://github.com/madhank93/learn-k8s-ckad) to go thro
 
    </p>
    </details>
+
+
+### Reference
+
+- [kodekloudhub/certified-kubernetes-administrator-course](https://github.com/kodekloudhub/certified-kubernetes-administrator-course)
